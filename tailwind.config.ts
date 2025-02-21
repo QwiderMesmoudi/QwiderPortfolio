@@ -12,6 +12,9 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'ping-slow': 'ping 1.5s linear infinite', // Adjust the duration (e.g., 3s)
+      },
     },
   },
   plugins: [],
