@@ -3,7 +3,6 @@ import Hero from "./Components/Hero";
 import ContactMe from "./Components/ContactMe";
 import { SanityDocument } from "next-sanity";
 import { client } from "@/sanity/lib/client";
-import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 
 

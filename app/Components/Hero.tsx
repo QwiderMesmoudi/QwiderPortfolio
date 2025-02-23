@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import { Cursor, Typewriter, useTypewriter } from 'react-simple-typewriter'
+import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BackgroundCircles from './BackgroundCircles'
 import Link from 'next/link'
 
@@ -11,7 +11,7 @@ type Props = {
 }
 
 const Hero = ({role,image,words}: Props) => {
-    const [text,count]=useTypewriter({
+    const [text]=useTypewriter({
        
         words:words,
         loop:true,
